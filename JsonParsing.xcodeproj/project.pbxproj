@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		F912A6E91E026EF100CADCE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F912A6E81E026EF100CADCE7 /* main.m */; };
 		F912A6EC1E026EF100CADCE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F912A6EB1E026EF100CADCE7 /* AppDelegate.m */; };
-		F912A6EF1E026EF100CADCE7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F912A6EE1E026EF100CADCE7 /* ViewController.m */; };
 		F912A6F21E026EF100CADCE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F912A6F01E026EF100CADCE7 /* Main.storyboard */; };
 		F912A6F41E026EF100CADCE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F912A6F31E026EF100CADCE7 /* Assets.xcassets */; };
 		F912A6F71E026EF100CADCE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F912A6F51E026EF100CADCE7 /* LaunchScreen.storyboard */; };
 		F912A7021E026EF100CADCE7 /* JsonParsingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F912A7011E026EF100CADCE7 /* JsonParsingTests.m */; };
 		F912A70D1E026EF100CADCE7 /* JsonParsingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F912A70C1E026EF100CADCE7 /* JsonParsingUITests.m */; };
+		F912A71C1E026F6100CADCE7 /* NewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F912A71B1E026F6100CADCE7 /* NewsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,6 @@
 		F912A6E81E026EF100CADCE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F912A6EA1E026EF100CADCE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F912A6EB1E026EF100CADCE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F912A6ED1E026EF100CADCE7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F912A6EE1E026EF100CADCE7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F912A6F11E026EF100CADCE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F912A6F31E026EF100CADCE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F912A6F61E026EF100CADCE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +49,8 @@
 		F912A7081E026EF100CADCE7 /* JsonParsingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JsonParsingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F912A70C1E026EF100CADCE7 /* JsonParsingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonParsingUITests.m; sourceTree = "<group>"; };
 		F912A70E1E026EF100CADCE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F912A71A1E026F6100CADCE7 /* NewsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTableViewController.h; sourceTree = "<group>"; };
+		F912A71B1E026F6100CADCE7 /* NewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +103,8 @@
 			children = (
 				F912A6EA1E026EF100CADCE7 /* AppDelegate.h */,
 				F912A6EB1E026EF100CADCE7 /* AppDelegate.m */,
-				F912A6ED1E026EF100CADCE7 /* ViewController.h */,
-				F912A6EE1E026EF100CADCE7 /* ViewController.m */,
+				F912A71A1E026F6100CADCE7 /* NewsTableViewController.h */,
+				F912A71B1E026F6100CADCE7 /* NewsTableViewController.m */,
 				F912A6F01E026EF100CADCE7 /* Main.storyboard */,
 				F912A6F31E026EF100CADCE7 /* Assets.xcassets */,
 				F912A6F51E026EF100CADCE7 /* LaunchScreen.storyboard */,
@@ -270,7 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F912A6EF1E026EF100CADCE7 /* ViewController.m in Sources */,
+				F912A71C1E026F6100CADCE7 /* NewsTableViewController.m in Sources */,
 				F912A6EC1E026EF100CADCE7 /* AppDelegate.m in Sources */,
 				F912A6E91E026EF100CADCE7 /* main.m in Sources */,
 			);
